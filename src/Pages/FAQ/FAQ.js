@@ -9,7 +9,9 @@ export default function FAQ() {
 
     return (
         <div>
-            FAQ
+            <div className="faq_title">
+                {t('FAQ.Title')}
+            </div>
             <div className="faq_questions">
 
                 <MyPanel

@@ -32,8 +32,9 @@
 
 
     "FAQ": {
+        "Title": "Perguntas Frequentes",
         "1": {
-            "Title": "tssssitle",
+            "Title": "Title badumtis",
             "Subtitle": "subtitle",
             "Answer": "answer"
         }
