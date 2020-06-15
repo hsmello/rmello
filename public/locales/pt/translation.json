@@ -1,0 +1,58 @@
+{
+    "ResponsiveMenu": {
+        "Toolbar": {
+            "About": "Sobre",
+            "Contact": "Contato",
+            "Reading": "Consultas",
+            "FAQ": "FAQs"
+        }
+    },
+    "Home": {
+        "Title": "esta é a pagina inicial",
+        "Box": {
+            "Title": "Siga blablabla",
+            "Instagram": {
+                "Title": "Instagram",
+                "Body": "siga la no instagram blablablabas as dasd adsuiasda"
+            },
+            "Reading": {
+                "Title": "Consultas",
+                "Body": "Basdasdhiua asud aiusd asdu auisd asd aiusd haisduh aisudh"
+            },
+            "Youtube": {
+                "Title": "YouTube",
+                "Body": "oajoij aoiasjd oaisjd aoisdj oaisdjoaijsdo aidjoiasdj "
+            }
+        },
+        
+        "VideoIntro": "Quer saber um pouquinho mais sobre como posso te ajudar? Veja o vídeo abaixo e me siga nas redes sociais!"
+    },
+
+
+
+
+    "FAQ": {
+        "1": {
+            "Title": "tssssitle",
+            "Subtitle": "subtitle",
+            "Answer": "answer"
+        }
+    },
+
+    "Footer": {
+        "Social": {
+            "Title": "Acompanhe de perto!",
+            "Instagram": "Siga",
+            "Youtube": "Increva-se",
+            "Whatsapp": "+351 999 999 999",
+            "Email": "tarotcomterapia.rm@gmail.com"
+        },
+        "Message": {
+            "First": "Permita-se questionar.",
+            "Second": "Desmistifique-se de forma simples e clara.",
+            "Third": "Sessões presenciais, via WhatsApp ou Skype."
+        },
+        "Copyrights": "Todos os direitos reservados",
+        "Development": "Copyright © 2020 por HM"
+    }
+}

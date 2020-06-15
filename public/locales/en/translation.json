@@ -1,0 +1,46 @@
+{
+    "ResponsiveMenu": {
+        "Toolbar": {
+            "About": "About",
+            "Contact": "Contact",
+            "Reading": "Reading",
+            "FAQ": "FAQs"
+        }
+    },
+    "Home": {
+        "Title": "This is the home page",
+        "Box": {
+            "Title": "Follow me blabla",
+            "Instagram": {
+                "Title": "Instagram",
+                "Body": "english siga la no instagram blablablabas as dasd adsuiasda"
+            },
+            "Reading": {
+                "Title": "Readings",
+                "Body": "english Basdasdhiua asud aiusd asdu auisd asd aiusd haisduh aisudh"
+            },
+            "Youtube": {
+                "Title": "YouTube",
+                "Body": "english oajoij aoiasjd oaisjd aoisdj oaisdjoaijsdo aidjoiasdj "
+            }
+        },
+        
+        "VideoIntro": "Do you wanna know a bit more blabla?!"
+    },
+    "Footer": {
+        "Social": {
+            "Title": "Keep in touch!",
+            "Instagram": "Follow",
+            "Youtube": "Subscribe",
+            "Whatsapp": "+351 999 999 999",
+            "Email": "tarotcomterapia.rm@gmail.com"
+        },
+        "Message": {
+            "First": "Allow yourself to question.",
+            "Second": "Demystify english blabla.",
+            "Third": "blabla english WhatsApp ou Skype."
+        },
+        "Copyrights": "All rights reserved",
+        "Development": "Copyright © 2020 by HM"
+    }
+}

@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(85,53,92);
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Cabin', sans-serif;
+}
+
+.home_page {
+  align-items: center;
+  width: 100%;
+}
+
+.cards {
+  animation: fade;
+  animation-duration: 5s;
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_title {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  animation: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* SOCIAL MEDIA EXP */
+.home_social_media {
+  /* height: 600px; */
+}
+.homee_box_title {
+  color: white;
+  margin: 90px auto 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+}
+.entire_column {
+  width: 30%;
+  margin: 0px auto;
+}
+.home_box {
+  display: flex;
+  width: 80%;
+  margin: 40px auto 50px;
+  justify-content: center;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  color: white;
+  border-radius: 300px;
+  transition: opacity .3s;
+  cursor: pointer;
+  margin: 0px auto;
+}
+.circle:hover {
+  opacity: 0.3;
+}
+.instagram_c,
+.youtube_c {
+  background-color: rgb(206,176,106);
+}
+.reading_c {
+  background-color: rgb(89, 170, 136);
+  /* margin: 0px 200px;  */
+}
+.icon_c {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+  height: 200px;
+}
+.reading_i {
+  font-size: 90px;
+}
+
+.entire_column h1, 
+.entire_column p {
+  text-align: center;
+  color: white;
+}
+.reding_ec p::after {
+  content: "";
+  background-color: white;
+  width: 20px;
+  height: 50px;
+}
+
+.youtube_home {
+  position: relative;
+  margin: 10px auto;
+  max-height: 400px;
+  max-width: 560px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+
+@media (max-width: 769px) {
+  .body {
+    max-width: 100%;
+  }
+  .cards {
+    width: 80%;
+  }
+  .logo_title {
+    width: 80%;
+  }
+  .homee_box_title {
+    margin: 35px auto 20px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .home_box {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+  }
+  .entire_column {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+  .icon_c {
+    font-size: 30px;
+    height: 100px; 
+  }
+  .reading_i {
+    font-size: 40px;
+  }
+}

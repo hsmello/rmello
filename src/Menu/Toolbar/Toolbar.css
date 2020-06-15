@@ -1,0 +1,132 @@
+.toolbar_header {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    padding: 10px;
+}
+
+.sideDrawerButton {
+    background-color: transparent;
+}
+
+.sideDrawerButton button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px;
+}
+
+.toolbar_options {
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-weight: bolder;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.nav_area a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-weight: bolder;
+    font-size: 23px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.nav_area a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width .4s;
+}
+
+.nav_area a:hover::after {
+    width: 100%;
+}
+
+.language_div {
+    width: 150px;
+    /* display: flex; */
+}
+
+.language_title {
+    display: flex;
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+
+.MuiSvgIcon-root {
+    width: 150%;
+}
+
+.language_title p {
+    position: relative;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.language_div button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    /* justify-content: start; */
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.language_options {
+    display: none;
+    width: inherit;
+    padding-top: 10px;
+}
+
+.language_div:hover .language_options{
+    display: block;
+}
+
+.language_div p {
+    margin: auto;
+    /* vertical-align: middle; */
+}
+
+.language_flag {
+    width: 40px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+@media (min-width: 770px) {
+    .sideDrawerButton {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .toolbar_options {
+        display: none;
+    }
+    .logo {
+        width: 50px;
+        position: absolute;
+        right: 0px;
+        padding: 15px;
+    }
+}
