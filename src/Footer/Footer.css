@@ -1,7 +1,5 @@
 .footer {
     width: 100%;
-    /* height: 400px; */
-    /* background-color: rgb(89, 170, 136); */
     background-color: rgb(245, 245, 245, 1);
     border-top: solid rgb(126, 122, 122) 1px;
     color: rgb(0, 0, 0);
@@ -34,8 +32,6 @@
 .footer_sm_body {
     display: grid;
     grid-template-columns: repeat(2, 230px);
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 .social span {
     color: rgb(0, 0, 0);
@@ -81,14 +77,20 @@ a.social:hover {
 }
 
 
-@media (max-width: 769px) {
+
+/* MOBILE */
+@media (max-width: 869px) {
     .footer_top {
         margin-top: 20px;
         display: block;
     }
     .social_media {
-        width: 90%;
-        margin: 0px;
+        width: 280px;
+        margin: 0px auto;
+    }
+    .footer_sm_title,
+    a.social {
+        margin-left: 0px;
     }
     .footer_sm_title {
         width: 100%;
@@ -104,6 +106,7 @@ a.social:hover {
     }
     .footer_message_text {
         width: 90%;
+        text-align: center;
         margin: auto;
         font-size: 17px;
     }
@@ -113,4 +116,27 @@ a.social:hover {
         margin: 0px;
     }
 
+}
+
+/* SMALL SCREEN */
+
+@media (min-width: 870px) and (max-width: 1200px) {
+    .social_media {
+        width: 300px;
+    }
+    .footer_sm_body {
+        display: block;
+    }
+    .footer_message {
+        margin: 0px auto;
+    }
+    .footer_message_text {
+        margin-left: 20px;
+        font-size: 17px;
+    }
+    .cards_icon,
+    .meditation_icon {
+        margin-left: 0px;
+        height: 120px;
+    }
 }

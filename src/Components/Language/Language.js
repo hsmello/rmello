@@ -3,6 +3,7 @@ import BrFlag from '../../Images/br_flag.jpg'
 import UKFlag from '../../Images/uk_flag.jpg'
 import LanguageIcon from '@material-ui/icons/Language';
 import { useTranslation } from 'react-i18next'
+import './Language.css'
 
 export default function Language() {
 
@@ -20,10 +21,12 @@ export default function Language() {
 
     return (
         <div className="language_div">
+            
             <div className="language_title">
                 <LanguageIcon fontSize="large" />
                 <p>{chosenLanguage}</p>
             </div>
+
             <div className="language_options">
                 <button onClick={() => handleClick('pt')}>
                     <img className="language_flag" src={BrFlag} alt="" />
@@ -34,6 +37,7 @@ export default function Language() {
                     <p>English</p>
                 </button>
             </div>
+        
         </div>
     )
 }

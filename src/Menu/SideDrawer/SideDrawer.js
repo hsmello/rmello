@@ -21,8 +21,7 @@ export default function SideDrawer(props) {
                 <Link to="/contato" >{t('ResponsiveMenu.Toolbar.Contact')}</Link>
                 <Link to="/consultas" >{t('ResponsiveMenu.Toolbar.Reading')}</Link>
                 <Link to="/faq" >{t('ResponsiveMenu.Toolbar.FAQ')}</Link>
-                <Language/>
-            
+                <Language />
             </ul>
         </nav>
     );

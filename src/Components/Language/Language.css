@@ -23,7 +23,6 @@
     color: white;
     font-weight: 500;
     font-size: 17px;
-    /* justify-content: start; */
     display: flex;
     position: relative;
     cursor: pointer;
@@ -41,11 +40,31 @@
 
 .language_div p {
     margin: auto;
-    /* vertical-align: middle; */
 }
 
 .language_flag {
     width: 40px;
     margin: auto;
     padding: 0px 10px;
+}
+
+@media (max-width: 769px) {
+    .language_title {
+        color: black;
+        margin: 0px 0px;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .language_title p {
+        margin: auto 0px;
+    }
+    .MuiSvgIcon-root {
+        width: 10px;
+    }
+    .language_options p {
+        /* font-size: 19px; */
+        /* margin-left: 0px; */
+        padding: 0px 0px;
+        color: black;
+    }
 }
