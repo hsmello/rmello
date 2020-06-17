@@ -1,0 +1,13 @@
+
+.cards_box {
+    width: 700px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    display: flex;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.about_mid_card {
+    margin: 0px 50px;
+}

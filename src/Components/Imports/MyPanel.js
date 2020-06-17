@@ -13,10 +13,16 @@ const useStyles = makeStyles((theme) => ({
         borderWidth: '1px',
         borderColor: 'rgb(85,53,92)',
     },
+    fullHeading: {
+        borderBottom: 'solid',
+        borderBottomWidth: '1px',
+        borderBottomColor: 'rgb(85,53,92)',
+    },
     heading: {
         fontSize: theme.typography.pxToRem(16),
-        flexBasis: '13.33%',
+        flexBasis: '23.33%',
         flexShrink: 0,
+        
     },
     secondaryHeading: {
         fontSize: theme.typography.pxToRem(16),
@@ -40,6 +46,7 @@ export default function MyPanel(props) {
         <div className={classes.root}>
             <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <ExpansionPanelSummary
+                    className={classes.fullHeading}
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
