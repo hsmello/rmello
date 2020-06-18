@@ -1,8 +1,42 @@
+.about_title {
+    font-size: 30px;
+    color: white;
+}
+
+.about_first_block {
+    display: flex;
+    margin: 10px 15%;
+}
+
+
+.block1,
+.block2 {
+    width: 80px;
+    height: 60px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.about_pic {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 180px;
+    left: 16.5%;
+}
+
+.about_text {
+    color: white;
+    margin: 0px 30px;
+    text-align: justify;
+}
+
+
 
 .cards_box {
     width: 700px;
     background-color: whitesmoke;
-    margin: 0px auto;
+    margin: 50px auto;
     display: flex;
     border-radius: 10px;
     padding: 30px;
@@ -10,4 +44,35 @@
 
 .about_mid_card {
     margin: 0px 50px;
+}
+
+@media (max-width: 769px) {
+    
+    .about_first_block {
+        display: block;
+        margin: 0px;
+    }
+    .block1,
+    .block2 {
+        width: 70%;
+        margin: 20px auto;
+    }
+    .about_text {
+        width: 85%;
+        margin: 0px auto;
+    }
+    
+    .cards_box {
+        display: block;
+        width: 200px;
+    }
+    .about_left_card,
+    .about_mid_card,
+    .about_right_card {
+        width: 160px;
+        margin: 0px auto;
+    }
+    .about_mid_card {
+        margin: 40px auto;
+    }
 }

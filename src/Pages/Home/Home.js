@@ -69,8 +69,13 @@ export default function Home() {
 
 
             <div className="youtube_home">
-                <YoutubeVideo
-                    src="https://www.youtube.com/embed/iMjkfuowV0E" />
+                <div className="youtube_home_text">
+                    {t('Home.VideoIntro')}
+                </div>
+                <div className="youtube_home_video">
+                    <YoutubeVideo
+                        src="https://www.youtube.com/embed/iMjkfuowV0E" />
+                </div>
             </div>
 
         </div>

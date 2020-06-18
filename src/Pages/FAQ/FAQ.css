@@ -10,6 +10,10 @@
     margin: 0px auto;
 }
 
+.faq_text {
+    margin: 30px auto;
+}
+
 @media (max-width: 769px) {
     .faq_questions {
         width: 90%;

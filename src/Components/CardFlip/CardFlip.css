@@ -6,15 +6,26 @@
     height: 250px;
 }
 
-.react-card-flip,
-.card_about {
-    /* margin: 0px 50px 0px 0px; */
-}
-
 .card_back {
     background-color: rgb(219, 219, 219);
-    border-radius: 5px;
+    border-radius: 15px;
     border: solid;
     border-color: rgb(85,53,92);
     border-width: 1px;
+}
+
+@media (max-width: 769px) {
+    .react-card-flip,
+    .card_about,
+    .card_front {
+        width: 160px;
+        height: 200px;
+    }
+    .card_back {
+        width: 150px;
+        height: 200px;
+    }
+    .react-card-flip {
+        margin: 0px;
+    }
 }

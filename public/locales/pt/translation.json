@@ -13,21 +13,29 @@
             "Title": "Siga blablabla",
             "Instagram": {
                 "Title": "Instagram",
-                "Body": "siga la no instagram blablablabas as dasd adsuiasda"
+                "Body": "Clique no ícone acima e siga o instagram para estar por dentro dos conselhos do tarot e dicas diárias!"
             },
             "Reading": {
                 "Title": "Consultas",
-                "Body": "Basdasdhiua asud aiusd asdu auisd asd aiusd haisduh aisudh"
+                "Body": "Se procura respostas mais direcionadas à sua realidade, fazer uma consulta será o ideal. Clique no ícone acima e entenda como as consultas funcionam."
             },
             "Youtube": {
                 "Title": "YouTube",
-                "Body": "oajoij aoiasjd oaisjd aoisdj oaisdjoaijsdo aidjoiasdj "
+                "Body": "Inscreva-se no canal do YouTube através do ícone acima e acompanhe as previsões mensais dos signos."
             }
         },
         
         "VideoIntro": "Quer saber um pouquinho mais sobre como posso te ajudar? Veja o vídeo abaixo e me siga nas redes sociais!"
     },
 
+    "About": {
+        "Title": "Sobre Título",
+        "Text": "Reikiana, Humanista, Facilitadora das Barras de Access. Formada por Elainne Ourives no curso Holococriação, e ressonante de Hélio Couto. Estudiosa da Física Quântica e treinadora de desenvolvimento pessoal. Sobretudo, alguém que acredita na capacidade do ser humano como Ser Infinito de mudar a si mesmo – e, assim, mudar o mundo. A minha proposta é te ajudar a sair de um espaço em que você se vê como vítima das circunstâncias ou passivo diante da vida para assumir a POTÊNCIA que você é – passando a se colocar e experienciar no mundo como CRIADOR CONSCIENTE da sua própria realidade. “Consciência é a habilidade de estar presente em sua vida a cada momento, sem julgamento sobre você ou outra pessoa. É a habilidade de receber tudo, nada rejeitar, e criar tudo o que deseja na vida – mais grandioso do que você tem atualmente e mais do que pode imaginar. E se você estivesse disposto a se nutrir e a se cuidar? E se abrisse as portas para tudo que decidiu que não é possível ser? O que é preciso para você perceber o quanto é crucial para as possibilidades do mundo?”",
+        "Card1": "text da carta 1",
+        "Card2": "texto da carta 2",
+        "Card3": "text da carta 3"
+    
+    },
 
 
 
@@ -37,7 +45,9 @@
             "Title": "Title badumtis",
             "Subtitle": "subtitle",
             "Answer": "answer"
-        }
+        },
+
+        "Text": "A sua questão não foi respondida? Entre em contato!"
     },
 
     "Footer": {
@@ -49,11 +59,11 @@
             "Email": "tarotcomterapia.rm@gmail.com"
         },
         "Message": {
-            "First": "Permita-se questionar.",
+            "First": "Obtenha as respostas que você procura!",
             "Second": "Desmistifique-se de forma simples e clara.",
-            "Third": "Sessões presenciais, via WhatsApp ou Skype."
+            "Third": "Sessões presenciais ou via WhatsApp."
         },
-        "Copyrights": "Todos os direitos reservados",
+        "Copyrights": "Todos os direitos reservados.",
         "Development": "Copyright © 2020 por HM"
     }
 }

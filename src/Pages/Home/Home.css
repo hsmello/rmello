@@ -2,6 +2,8 @@ body {
   background-color: rgb(85,53,92);
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Cabin', sans-serif;
+  line-height: 200%;
+  color: white;
 }
 
 .home_page {
@@ -40,7 +42,6 @@ body {
   /* height: 600px; */
 }
 .homee_box_title {
-  color: white;
   margin: 90px auto 30px;
   text-align: center;
   font-weight: 600;
@@ -59,7 +60,6 @@ body {
 .circle {
   width: 200px;
   height: 200px;
-  color: white;
   border-radius: 300px;
   transition: opacity .3s;
   cursor: pointer;
@@ -94,7 +94,6 @@ body {
 .entire_column h1, 
 .entire_column p {
   text-align: center;
-  color: white;
 }
 .reding_ec p::after {
   content: "";
@@ -103,14 +102,18 @@ body {
   height: 50px;
 }
 
-.youtube_home {
+.youtube_home_video {
   position: relative;
   margin: 10px auto;
   max-height: 400px;
   max-width: 560px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  margin-bottom: 40px;
+}
+.youtube_home_text {
+  max-width: 560px;
+  text-align: center;
+  font-size: 22px;
+  margin: 30px auto;
 }
 
 

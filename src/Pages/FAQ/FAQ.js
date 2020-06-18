@@ -23,6 +23,9 @@ export default function FAQ() {
                     title="sssss"
                 />
             </div>
+            <div className="faq_text">
+                {t('FAQ.Text')}
+            </div>
         </div>
     )
 }
